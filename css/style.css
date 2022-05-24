@@ -262,3 +262,35 @@ box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
     width: 200px;
     border-radius: .5rem;
 }
+
+/* ===SKILLS=== */
+.skills_container{
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.skills_subtitle{
+    margin-bottom: var(--mb-2);
+}
+
+.skills_text{
+    margin-bottom: var(--mb-4);
+}
+
+.skills_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+}
+
+.skills-icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+}
